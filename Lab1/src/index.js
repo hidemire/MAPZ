@@ -17,6 +17,10 @@ someObj = object {
   },
 };
 
+if (|someObj.a| == 1) {
+  print("true!");
+};
+
 print(|someObj.b.f|(123));
 #print(g);
 
